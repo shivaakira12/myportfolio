@@ -57,10 +57,12 @@ body{
 	font-size: 2.5rem;
 	padding: 1.5rem;
 	margin: .5rem;
+	
 }
 .header .navbar a.active,
 .header .navbar a:hover
 {
+	color: white;
 	 background-color: var(--yellow);
 }
 .header .socials a{
@@ -105,7 +107,7 @@ section{
 	font-size: 2rem;
 }
 .btn:hover{
-	background-color: var(--black);
+	background-color: var(--green);
 	color: var(--white);
 }
 .home{
@@ -140,6 +142,7 @@ section{
 	background-color: var(--yellow);
 	font-size: 2.5rem;
 	margin: 1rem 0;
+	color: white;
 }
 .home .content p{
 	font-size: 1.7rem;
@@ -226,6 +229,7 @@ section{
 .about .edu-exp .row .box-container  .title{
 	padding: 1.5rem;
 	font-size: 3rem;
+	color: white;
 	background-color: var(--yellow);
 }
 .about .edu-exp .row .box-container .box{
@@ -267,6 +271,7 @@ section{
 	margin: 1rem 0;
 	font-size: 2rem;
 	padding: 1rem;
+	color: white;
 	background-color: var(--yellow);
 }
 .services .box-container .box p{
