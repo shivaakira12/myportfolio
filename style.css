@@ -199,6 +199,7 @@ section{
 }
 .about .skills .progress .bar span{
 	font-weight: normal;
+	color: #eee;
 }
 .about .skills .progress .bar:nth-child(1) h3{
 	width: 95%;
