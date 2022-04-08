@@ -80,8 +80,8 @@ body{
 	width: 5rem;
 	font-size: 2rem;
 	cursor: pointer;
-	background-color: var(--black);
-	color: var(--white);
+	background-color: var(--yellow);
+	color: var(--black);
 }
 .header.active{
 	left: 0;
