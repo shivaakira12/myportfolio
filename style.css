@@ -305,9 +305,31 @@ color: white;
 .portfolio .box-container .box:hover {
 	opacity: 1;
 }
-
-
-
+.contact form{
+	max-width: 70rem;
+	margin: 0 auto;
+}
+.contact form .box{
+	width: 100%;
+	padding: 1.4rem;
+	font-size: 2rem;
+	text-transform: none;
+	border: var(--border-light);
+	margin: 1rem 0;
+}
+.contact form textarea{
+	height: 20rem;
+	resize: none;
+}
+.contact form .flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.contact form .flex .box{
+	width: 49%;
+	
+}
 
 
 
