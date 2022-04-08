@@ -231,6 +231,7 @@ section{
 	background-color: var(--light-bg);
 	margin-top: 1.5rem;
 	margin-bottom: 1rem;
+	padding: 2rem;
 }
 .about .edu-exp .row .box-container .box span{
 	font-size:  1.5rem;
