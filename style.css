@@ -123,7 +123,10 @@ section{
 	flex: 1 1 40rem;
 }
 .home .image img{
-	height: 55rem;
+	height: 50rem;
+	border-bottom-left-radius: 40px;
+	border-top-right-radius: 40px;
+	width: 30rem;
 	padding: 0rem;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	border: var(--border-bold);
@@ -365,7 +368,6 @@ color: white;
 
 
 
-
 /*media queries*/
 @media (max-width:991px){
 	html{
@@ -391,8 +393,8 @@ color: white;
 	}
 	.home .image img{
 		height: auto;
-		width: 100%;
-		margin-top: 20px;
+		width: 80%;
+		margin-top: 30px;
 	}
 	.heading span{
 		font-size: 4rem;
