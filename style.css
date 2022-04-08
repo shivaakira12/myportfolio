@@ -121,7 +121,7 @@ section{
 	flex: 1 1 40rem;
 }
 .home .image img{
-	height: 50rem;
+	height: 55rem;
 	padding: 0rem;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	border: var(--border-bold);
