@@ -328,7 +328,21 @@ color: white;
 }
 .contact form .flex .box{
 	width: 49%;
+}
+.credit{
+	height: 10vh;
+	background-color: var(--black);
+	text-align: center;
 	
+}
+.credit h3{
+	color: white;
+	padding: 20px;
+	font-size: 1.5rem;
+}
+.credit span{
+	color: var(--yellow);
+	font-weight: bolder;
 }
 
 
