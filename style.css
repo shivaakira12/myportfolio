@@ -271,11 +271,53 @@ section{
 	font-size: 1.5rem;
 }
 .services .box-container .box:hover{
-	background-color: var(--yellow);
+	background-color: var(--black);
 }
 .services .box-container .box:hover i{
 	color: var(--white);
 }
+.services .box-container .box:hover p{
+color: white;
+}
+.portfolio .box-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(50rem,1fr));
+	gap: 1.5rem;
+	align-items: flex-start;
+}
+.portfolio .box-container .box img{
+	height: 30rem;
+	width: 100%;
+	object-fit: cover;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.portfolio .box-container .box h3{
+	margin: 1rem 0;
+	font-size: 2rem;
+	font-weight: normal;
+}
+.portfolio .box-container .box span{
+	font-size: 1.7rem;
+}
+.portfolio .box-container:hover .box{
+	opacity: .2;
+}
+.portfolio .box-container .box:hover {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*media queries*/
