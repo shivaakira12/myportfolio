@@ -154,16 +154,16 @@ section{
 	border-bottom: var(--border-bold);
 }
 .about .biography p{
-	margin: 1rem auto;
+	margin: 2rem auto;
 	max-width: 70rem;
 	line-height: 1.5;
-	font-size: 1.7rem;
+	font-size: 1.8rem;
 }
 .about .biography  .bio{
 	margin-top: 1rem;
 }
 .about .biography .bio h3{
-	padding: 1rem 1.5rem;
+	padding: 1rem 2rem;
 	display:  inline-block;
 	margin: 1rem;
 	background-color: var(--light-bg);
@@ -173,13 +173,45 @@ section{
 	font-weight: normal;
 	text-transform: none;
 }
-.about .biography .bio span{
+.about .biography .bio h3 span{
 	font-weight: lighter;
 }
+.about .skills{
+	margin: 3rem 0;
+}
+.about .skills .progress{
+	margin-top: 1rem;
+}
+.about .skills .progress .bar{
+	margin: 1rem auto;
+	max-width: 70rem;
+	border: var(--border-light);
+	padding: 1rem;
+}
+.about .skills .progress .bar h3{
+	padding: 1rem;
+	display: flex;
+	font-size:2rem ;
+	align-items: center;
+	justify-content: space-between;
+	background-color: var(--yellow);
+}
+.about .skills .progress .bar span{
+	font-weight: normal;
+}
+.about .skills .progress .bar:nth-child(1) h3{
+	width: 95%;
+}
+.about .skills .progress .bar:nth-child(2) h3{
+	width: 89%;
+}
+.about .skills .progress .bar:nth-child(3) h3{
+	width: 50%;
+}
 
-
-
-
+.about .skills .progress .bar:nth-child(4) h3{
+	width: 45%;
+}
 
 
 
@@ -193,6 +225,10 @@ section{
 	}
 	body.active{
 		padding-left: 0;
+	}
+	.home .image img{
+		
+		margin-top: 20px;
 	}
 }
 @media (max-width:450px){
@@ -208,8 +244,12 @@ section{
 	.home .image img{
 		height: auto;
 		width: 100%;
+		margin-top: 20px;
 	}
 	.heading span{
 		font-size: 4rem;
+	}
+	.about .biography .bio h3{
+		font-size: 2rem;
 	}
 }
