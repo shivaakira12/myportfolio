@@ -105,10 +105,12 @@ section{
 	padding: 1rem 3rem;
 	border: var(--border-light);
 	font-size: 2rem;
-}
-.btn:hover{
 	background-color: var(--green);
 	color: var(--white);
+}
+.btn:hover{
+	background-color: var(--black);
+	color: #eee;
 }
 .home{
 	display: flex;
