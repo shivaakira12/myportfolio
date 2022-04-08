@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,900;1,300;1,400;1,900&display=swap');
 :root{
-	--yellow:#ffcc0d;
+	--yellow:#008000;
 	--black:#000;
 	--white:#fff;
+	--green:#008000;
 	--light-bg:#eee;
-	--border-bold:.5rem solid var(--black);
-	--border-light:.2rem solid var(--black);
+	--border-bold:.5rem solid var(--green);
+	--border-light:.2rem solid var(--green);
 }
 *{
 	margin: 0;
@@ -81,7 +82,7 @@ body{
 	font-size: 2rem;
 	cursor: pointer;
 	background-color: var(--yellow);
-	color: var(--black);
+	color: var(--white);
 }
 .header.active{
 	left: 0;
@@ -281,7 +282,7 @@ color: white;
 }
 .portfolio .box-container{
 	display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(50rem,1fr));
+	grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
 	gap: 1.5rem;
 	align-items: flex-start;
 }
