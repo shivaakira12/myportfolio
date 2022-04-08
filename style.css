@@ -121,6 +121,7 @@ section{
 	height: 50rem;
 	padding: 2rem;
 	border: var(--border-bold);
+	background-color: black;
 }
 
 .home .content{
@@ -152,7 +153,29 @@ section{
 	font-size: 6.5rem;
 	border-bottom: var(--border-bold);
 }
-
+.about .biography p{
+	margin: 1rem auto;
+	max-width: 70rem;
+	line-height: 1.5;
+	font-size: 1.7rem;
+}
+.about .biography  .bio{
+	margin-top: 1rem;
+}
+.about .biography .bio h3{
+	padding: 1rem 1.5rem;
+	display:  inline-block;
+	margin: 1rem;
+	background-color: var(--light-bg);
+	border: var(--border-light);
+	word-break: break-all;
+	font-size: 2.5rem;
+	font-weight: normal;
+	text-transform: none;
+}
+.about .biography .bio span{
+	font-weight: lighter;
+}
 
 
 
@@ -185,5 +208,8 @@ section{
 	.home .image img{
 		height: auto;
 		width: 100%;
+	}
+	.heading span{
+		font-size: 4rem;
 	}
 }
